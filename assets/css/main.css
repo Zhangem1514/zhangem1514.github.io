@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+p {
+	line-height: 1.3em;
+}
+
 /* Basic */
 
 	html {
@@ -85,9 +89,8 @@ input, select, textarea {
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.5em;
 		color: #888;
 	}
 
@@ -104,9 +107,8 @@ input, select, textarea {
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.5em;
 		color: #888;
 	}
 
@@ -126,16 +128,16 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.5em;
 		letter-spacing: -1px;
 	}
 
 		h2.alt {
-			color: #888;
+			color: #999;
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #888;
 			}
 
 	h3 {
@@ -143,11 +145,13 @@ input, select, textarea {
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
+		font-size: 1.25em
 	}
 
 		header > p {
-			margin: 1em 0 0 0;
+			font-size£º1.25em;
+			margin: 0.5em 0 0 0;
 		}
 
 	footer {
@@ -155,8 +159,8 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
-		color: #666;
+		font-weight: 800;
+		color: black;
 	}
 
 	em, i {
@@ -203,7 +207,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	br.clear {
@@ -214,6 +218,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
+		min-width: 300px;
 		max-width: 100%;
 		width: 1400px;
 	}
@@ -1755,15 +1760,28 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 70px;
+			height: 70px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 70px;
+				height: 70px;
 			}
+		
+		.image.qrcode {
+			margin-left: 0.5em;
+			margin-top: 30em;
+			width: 60px;
+			height: 60px;
+			background: #f00;
+		}
+
+			.image.qrcode img {
+				width: 60px;
+				height: 60px;
+			}		
 
 		.image.fit {
 			display: block;
@@ -1987,8 +2005,7 @@ input, select, textarea {
 		.item header {
 			background: #fff;
 			margin: 0;
-			padding: 1em 0 1em 0;
-			font-size: 0.8em;
+			padding: 0.5em 0 0.5em 0;
 		}
 
 			.item header h3 {
@@ -2065,6 +2082,16 @@ input, select, textarea {
 			flex-grow: 1;
 		}
 
+		#header .left {
+			float: left;
+			width: 310px;
+			height: 60px;
+		}
+		#header .right {
+			height: 780px;
+			overflow: hidden;
+		}
+
 		#header .bottom {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
@@ -2078,7 +2105,6 @@ input, select, textarea {
 			}
 
 		#header .icons {
-			font-size: 0.8em;
 			text-align: center;
 		}
 
@@ -2247,20 +2273,26 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #F9F3DF;
+				background-image: url("../../images/lu2.jpg");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #F9F3DF;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #FDFCE5;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #D7E9F7;
+			}
+			#main > section.five {
+				background-color: #F4D19B;
+			}
+			#main > section.six {
+				background-color: #FCBEB5;
 			}
 
 /* Wide */

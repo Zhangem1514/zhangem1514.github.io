@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our extended abstract has been as Present & Discuss by EAPRIL 2026!
+Our extended abstract has been accepted as Present & Discuss by EAPRIL 2026!
